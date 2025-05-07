@@ -1,0 +1,96 @@
+/* .product-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* تنسيق تفاصيل المنتج */
+/* .product-detail {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.product-detail img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+.product-info {
+    flex: 1;
+}
+.product-info h1 {
+    font-size: 28px;
+    color: #0f6d0b;
+}
+
+.product-info p {
+    font-size: 18px;
+    color: #0c390c;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}  */
+.product-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .product-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .product-detail img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+  }
+  .product-info h1 {
+    margin: 60px 0;
+    font-size: 24px;
+    color: #45a049;
+  }
+  .product-info p {
+    margin: 25px 0;
+    font-size: 18px;
+    color: #0e4d11;
+  }
+  .product-info button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .product-info button:hover {
+    background-color: #45a049;
+  }
